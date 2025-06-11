@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hacker Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <i class="fas fa-code"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#blog" class="nav-link" data-section="blog">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Left Sidebar (20%) -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="/image.jpg" alt="Developer Profile" id="profile-img">
+                </div>
+                <h1 class="name">Job Rosana</h1>
+                <p class="title">Security researcher</p>
+                <p class="bio">ai and machine learning driven security research</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                       <a href="mailto:rosanajob33@gmail.com"><span>rosanajob33@gmail.com</span></a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Nairobi, Kenya</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/jobsenn"><span>github</span></a>
+
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://linkedin.com/in/jobrosana"><span>linkedin</span></a>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">python</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Threath inteligence</span>
+                        <span class="skill-tag">penetration testing</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Network security</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Content Area (80%) -->
+        <section class="content-area">
+            <!-- Home Section -->
+            <div id="home" class="section active">
+                <div class="cv-section">
+                    <h2>Professional Experience</h2>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Freelance security researcher</h3>
+                            <span class="company">Bugcrowd.</span>
+                            <span class="period">2024 - Present</span>
+                        </div>
+                        <p>helped secure various applications and reduced attack surface of organisations</p>
+                        <ul>
+                            <li>reported vulnearable endpoints</li>
+                            <li>reported domant servers that were still online</li>
+                            <li>actively writing blogs and tutorial to help the community</li>
+                        </ul>
+                    </div>
+
+
+
+                    <h2>Education</h2>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <span class="institution">The cooperative university of kenya</span>
+                            <span class="period">2021 - 2024</span>
+                        </div>
+                        <p></p>
+                    </div>
+
+                    <h2>Certifications</h2>
+                    <div class="certifications">
+                        <div class="cert-item">
+                            <i class="fab fa-code"></i>
+                            <span>HCIA-security</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fab fa-map-marker-alt"></i>
+                            <span>HCIP-security</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker Certified Associate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div id="projects" class="section">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>automatic wifi cracking tool</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p>full automated recon wrapper</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">python</span>
+                            <span class="tech-tag">bash</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Task Management App</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p>Real-time task management application with collaborative features and notifications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">python</span>
+                            <span class="tech-tag">mySql</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Weather Dashboard</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p>Interactive weather dashboard with charts and location-based forecasts.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Section -->
+            <div id="blog" class="section">
+                <h2>Latest Blog Posts</h2>
+                <div class="blog-posts">
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">March 15, 2024</span>
+                            <span class="post-category">Web Development</span>
+                        </div>
+                        <h3>Building Scalable React Applications</h3>
+                        <p>Learn the best practices for building large-scale React applications that can handle thousands of users...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">February 28, 2024</span>
+                            <span class="post-category">DevOps</span>
+                        </div>
+                        <h3>CI/CD Pipeline Optimization</h3>
+                        <p>How to optimize your continuous integration and deployment pipeline for faster, more reliable releases...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">January 20, 2024</span>
+                            <span class="post-category">JavaScript</span>
+                        </div>
+                        <h3>Modern JavaScript Features You Should Know</h3>
+                        <p>Explore the latest JavaScript features that can make your code more readable and maintainable...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
